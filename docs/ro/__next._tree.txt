@@ -1,0 +1,5 @@
+:HL["/codex-workspace/_next/static/chunks/1n0eldsk3z0dd.css","style"]
+:HC["/",""]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":{"n":"locale","t":"d","k":"ro","s":[]},"h":65648,"c":"$Q2"}]]
+0:{"b":"WySJBO5_ZtD9SgBibfWFk","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

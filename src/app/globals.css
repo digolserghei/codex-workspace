@@ -13,3 +13,11 @@
 .portrait-wrap .parallax-photo{position:absolute;inset:-6% 0;width:100%;height:112%;object-fit:cover}
 .ivf-image .parallax-photo{position:absolute;inset:-12% 0;width:100%;height:124%;object-fit:cover}
 @media(prefers-reduced-motion:reduce){.image-statement>.parallax-image,.portrait-wrap .parallax-photo,.ivf-image .parallax-photo{inset:0;height:100%}}
+
+.language-switcher{display:flex;flex-shrink:0;align-items:center;padding:4px;border:1px solid #fcf6ec66;border-radius:24px;gap:2px}
+.language-switcher a{font-size:11px;line-height:30px;min-width:32px;text-align:center;border-radius:20px;transition:background var(--motion),color var(--motion)}
+.site-header .language-switcher a:after{display:none}.language-switcher a.current{background:var(--cream);color:var(--ink)}.language-switcher a:hover{background:#fcf6ec22}.language-switcher a.current:hover{background:var(--cream)}
+.scrolled .language-switcher{border-color:var(--line)}.scrolled .language-switcher a.current{background:var(--ink);color:var(--cream)}.scrolled .language-switcher a:hover{background:var(--ivory)}.scrolled .language-switcher a.current:hover{background:var(--ink)}
+.site-header{gap:20px}.site-header nav{gap:clamp(14px,1.6vw,28px)}
+html:not([lang=ru]) .statement-line{white-space:normal}html:not([lang=ru]) .metrics .metric>p{font-size:19px}html[lang=ro] .metric>p>span{font-size:52px}html[lang=ro] .reputation-section .section-heading h2{font-size:clamp(36px,3.5vw,58px)}
+@media(max-width:1350px){.site-header nav{font-size:12px;gap:14px}.site-header .wordmark{font-size:16px}.site-header .wordmark>span{font-size:9px}}

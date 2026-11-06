@@ -1,0 +1,49 @@
+{
+  "ru": {
+    "widths": [
+      1280,
+      1440,
+      1920
+    ],
+    "services": 4,
+    "faq": 6,
+    "publications": 25,
+    "languageNavigation": "passed",
+    "accordions": "passed",
+    "galleries": "passed",
+    "lightbox": "passed",
+    "images": "passed"
+  },
+  "en": {
+    "widths": [
+      1280,
+      1440,
+      1920
+    ],
+    "services": 4,
+    "faq": 6,
+    "publications": 25,
+    "languageNavigation": "passed",
+    "accordions": "passed",
+    "galleries": "passed",
+    "lightbox": "passed",
+    "images": "passed"
+  },
+  "ro": {
+    "widths": [
+      1280,
+      1440,
+      1920
+    ],
+    "services": 4,
+    "faq": 6,
+    "publications": 25,
+    "languageNavigation": "passed",
+    "accordions": "passed",
+    "galleries": "passed",
+    "lightbox": "passed",
+    "images": "passed"
+  },
+  "errors": [],
+  "motion": "passed"
+}

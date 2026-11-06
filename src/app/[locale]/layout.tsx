@@ -1,0 +1,7 @@
+import type {Metadata} from 'next';
+import '@fontsource-variable/manrope';
+import '../globals.css';
+const meta={ru:{title:'Ирена Дигол — гинеколог-репродуктолог в Кишиневе',description:'Персональный сайт Ирены Дигол: лечение бесплодия, вспомогательные репродуктивные технологии, профессиональный опыт и научные публикации. Запись на приём в Terramed.'},en:{title:'Irena Digol — Gynaecologist & Fertility Specialist in Chișinău',description:'Irena Digol: infertility treatment, assisted reproductive technology, professional experience and scientific publications. Book an appointment at Terramed.'},ro:{title:'Irena Digol — Ginecolog, specialist în reproducere în Chișinău',description:'Irena Digol: tratamentul infertilității, tehnologii de reproducere asistată, experiență profesională și publicații științifice. Programări la Terramed.'}};
+function language(value?:string){return value==='en'||value==='ro'?value:'ru'}
+export async function generateMetadata({params}:{params:Promise<{locale?:string}>}):Promise<Metadata>{const locale=language((await params).locale);const base='https://digolserghei.github.io/codex-workspace';return {...meta[locale],alternates:{canonical:`${base}${locale==='ru'?'/':`/${locale}/`}`,languages:{ru:`${base}/`,en:`${base}/en/`,ro:`${base}/ro/`}}};}
+export default async function RootLayout({children,params}:{children:React.ReactNode,params:Promise<{locale?:string}>}){return <html lang={language((await params).locale)}><body>{children}</body></html>}
