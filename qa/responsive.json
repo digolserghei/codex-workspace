@@ -1,0 +1,366 @@
+{
+  "widths": [
+    360,
+    390,
+    430,
+    600,
+    700,
+    768,
+    820,
+    900,
+    1024,
+    1100,
+    1101,
+    1280,
+    1440,
+    1920
+  ],
+  "locales": {
+    "ru": {
+      "viewports": [
+        {
+          "width": 360,
+          "scroll": 360,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 390,
+          "scroll": 390,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 430,
+          "scroll": 430,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 600,
+          "scroll": 600,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 700,
+          "scroll": 700,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 768,
+          "scroll": 768,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 820,
+          "scroll": 820,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 900,
+          "scroll": 900,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1024,
+          "scroll": 1024,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1100,
+          "scroll": 1100,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1101,
+          "scroll": 1101,
+          "headerFits": true,
+          "menuVisible": false,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1280,
+          "scroll": 1280,
+          "headerFits": true,
+          "menuVisible": false,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1440,
+          "scroll": 1440,
+          "headerFits": true,
+          "menuVisible": false,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1920,
+          "scroll": 1920,
+          "headerFits": true,
+          "menuVisible": false,
+          "galleryDirection": "column"
+        }
+      ],
+      "menu": "passed",
+      "keyboard": "passed",
+      "accordions": "passed",
+      "galleries": "passed",
+      "rotation": "passed",
+      "languageMenu": "passed"
+    },
+    "en": {
+      "viewports": [
+        {
+          "width": 360,
+          "scroll": 360,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 390,
+          "scroll": 390,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 430,
+          "scroll": 430,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 600,
+          "scroll": 600,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 700,
+          "scroll": 700,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 768,
+          "scroll": 768,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 820,
+          "scroll": 820,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 900,
+          "scroll": 900,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1024,
+          "scroll": 1024,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1100,
+          "scroll": 1100,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1101,
+          "scroll": 1101,
+          "headerFits": true,
+          "menuVisible": false,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1280,
+          "scroll": 1280,
+          "headerFits": true,
+          "menuVisible": false,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1440,
+          "scroll": 1440,
+          "headerFits": true,
+          "menuVisible": false,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1920,
+          "scroll": 1920,
+          "headerFits": true,
+          "menuVisible": false,
+          "galleryDirection": "column"
+        }
+      ],
+      "menu": "passed",
+      "keyboard": "passed",
+      "accordions": "passed",
+      "galleries": "passed",
+      "rotation": "passed",
+      "languageMenu": "passed"
+    },
+    "ro": {
+      "viewports": [
+        {
+          "width": 360,
+          "scroll": 360,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 390,
+          "scroll": 390,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 430,
+          "scroll": 430,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 600,
+          "scroll": 600,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 700,
+          "scroll": 700,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "row"
+        },
+        {
+          "width": 768,
+          "scroll": 768,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 820,
+          "scroll": 820,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 900,
+          "scroll": 900,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1024,
+          "scroll": 1024,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1100,
+          "scroll": 1100,
+          "headerFits": true,
+          "menuVisible": true,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1101,
+          "scroll": 1101,
+          "headerFits": true,
+          "menuVisible": false,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1280,
+          "scroll": 1280,
+          "headerFits": true,
+          "menuVisible": false,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1440,
+          "scroll": 1440,
+          "headerFits": true,
+          "menuVisible": false,
+          "galleryDirection": "column"
+        },
+        {
+          "width": 1920,
+          "scroll": 1920,
+          "headerFits": true,
+          "menuVisible": false,
+          "galleryDirection": "column"
+        }
+      ],
+      "menu": "passed",
+      "keyboard": "passed",
+      "accordions": "passed",
+      "galleries": "passed",
+      "rotation": "passed",
+      "languageMenu": "passed"
+    }
+  },
+  "errors": [],
+  "firstMobileHeroSource": "http://127.0.0.1:3000/codex-workspace/images/responsive/hero-1200.webp",
+  "mobileMotion": "passed",
+  "failures": [],
+  "shortPortraitAndLandscape": {
+    "sizes": [
+      [
+        360,
+        640
+      ],
+      [
+        844,
+        390
+      ]
+    ],
+    "locales": [
+      "ru",
+      "en",
+      "ro"
+    ],
+    "result": "passed"
+  }
+}

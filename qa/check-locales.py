@@ -35,7 +35,7 @@ with sync_playwright() as p:
   page.locator('[data-accordion=faq] h3 button').nth(4).click()
   for gallery in page.locator('.gallery').all():
    gallery.locator('.gallery-thumbnails button').nth(1).click();assert gallery.locator('.gallery-thumbnails button').nth(1).get_attribute('aria-pressed')=='true'
-  page.locator('.reputation-gallery .gallery-main').click();assert page.locator('dialog').evaluate('(e)=>e.open');page.keyboard.press('Escape');assert not page.locator('dialog').evaluate('(e)=>e.open')
+  page.locator('.reputation-gallery .gallery-main').click();assert page.locator('.lightbox').evaluate('(e)=>e.open');page.keyboard.press('Escape');assert not page.locator('.lightbox').evaluate('(e)=>e.open')
   page.locator('[data-accordion=services] h3 button').first.click();page.locator('#section-9').screenshot(path=str(shots/f'{locale}-services.png'))
   for y in range(0,page.evaluate('document.body.scrollHeight'),900):page.evaluate('(y)=>scrollTo(0,y)',y);page.wait_for_timeout(50)
   page.wait_for_timeout(800)

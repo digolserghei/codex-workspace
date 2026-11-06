@@ -1,0 +1,132 @@
+{
+  "/images/about.jpg": {
+    "width": 800,
+    "variants": [
+      {
+        "src": "/images/responsive/about-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/art.webp": {
+    "width": 1672,
+    "variants": [
+      {
+        "src": "/images/responsive/art-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/cell.webp": {
+    "width": 1536,
+    "variants": [
+      {
+        "src": "/images/responsive/cell-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/gallery-embryo.webp": {
+    "width": 1086,
+    "variants": [
+      {
+        "src": "/images/responsive/gallery-embryo-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/gallery-genetics.webp": {
+    "width": 1024,
+    "variants": [
+      {
+        "src": "/images/responsive/gallery-genetics-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/gallery-icsi.webp": {
+    "width": 1122,
+    "variants": [
+      {
+        "src": "/images/responsive/gallery-icsi-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/gallery-newborn.webp": {
+    "width": 1024,
+    "variants": [
+      {
+        "src": "/images/responsive/gallery-newborn-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/hero.jpg": {
+    "width": 2912,
+    "variants": [
+      {
+        "src": "/images/responsive/hero-720.webp",
+        "width": 720
+      },
+      {
+        "src": "/images/responsive/hero-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/images/ivf.webp": {
+    "width": 1672,
+    "variants": [
+      {
+        "src": "/images/responsive/ivf-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/reputation-1.jpg": {
+    "width": 1252,
+    "variants": [
+      {
+        "src": "/images/responsive/reputation-1-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/reputation-2.jpg": {
+    "width": 1667,
+    "variants": [
+      {
+        "src": "/images/responsive/reputation-2-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/reputation-3.jpg": {
+    "width": 800,
+    "variants": [
+      {
+        "src": "/images/responsive/reputation-3-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/reputation-4.jpg": {
+    "width": 800,
+    "variants": [
+      {
+        "src": "/images/responsive/reputation-4-720.webp",
+        "width": 720
+      }
+    ]
+  },
+  "/images/reputation-5.jpg": {
+    "width": 800,
+    "variants": [
+      {
+        "src": "/images/responsive/reputation-5-720.webp",
+        "width": 720
+      }
+    ]
+  }
+}

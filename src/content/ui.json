@@ -318,5 +318,13 @@
   "Язык сайта": {
     "en": "Website language",
     "ro": "Limba site-ului"
+  },
+  "Открыть меню": {
+    "en": "Open menu",
+    "ro": "Deschide meniul"
+  },
+  "Закрыть меню": {
+    "en": "Close menu",
+    "ro": "Închide meniul"
   }
 }
