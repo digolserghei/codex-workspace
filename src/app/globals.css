@@ -80,3 +80,15 @@ html:not([lang=ru]) .statement-line{white-space:normal}html:not([lang=ru]) .metr
 @media(max-width:380px){:root{--page-gutter:20px}.site-header{padding:0 16px;gap:7px}.site-header .wordmark>span{max-width:130px}.language-switcher a{min-width:28px}.metric>p>span,html[lang=ro] .metric>p>span{font-size:42px}.footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}.hero-copy{bottom:42px}.mobile-menu nav>a{font-size:23px}}
 @media(max-height:500px) and (max-width:1100px){.mobile-menu nav{margin:20px 0}.mobile-menu nav>a{font-size:22px;padding:13px 0}.mobile-menu-bottom{padding-bottom:10px}.hero{min-height:680px}}
 @media(max-width:1100px){.accordion-layout>div>h2 br,.intro-grid h2 br,.text-section-grid>h2 br{display:block}.site-header .language-switcher a{min-width:44px;line-height:44px}.site-header .wordmark>span{max-width:100%}}
+
+/* Continue the fixed header through the iOS safe area. */
+:root{--safe-top:env(safe-area-inset-top,0px);--header-height:88px;--header-gutter:var(--page-gutter)}
+html{background:var(--canvas);scroll-padding-top:calc(var(--header-height) + var(--safe-top) + 6px)}
+.site-header{height:calc(var(--header-height) + var(--safe-top));padding-top:var(--safe-top);padding-left:max(var(--header-gutter),env(safe-area-inset-left,0px));padding-right:max(var(--header-gutter),env(safe-area-inset-right,0px))}
+.site-header.scrolled{background:var(--canvas)}
+.section,.image-statement{padding-left:max(var(--page-gutter),env(safe-area-inset-left,0px));padding-right:max(var(--page-gutter),env(safe-area-inset-right,0px))}
+.mobile-menu{padding-top:calc(24px + var(--safe-top));padding-left:max(28px,env(safe-area-inset-left,0px));padding-right:max(28px,env(safe-area-inset-right,0px))}
+.skip-link:focus{top:calc(15px + var(--safe-top))}
+@media(max-width:1100px){:root{--header-height:80px}}
+@media(max-width:700px){:root{--header-height:76px;--header-gutter:20px}.mobile-menu{padding-top:calc(20px + var(--safe-top));padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px))}.hero-copy{left:max(var(--page-gutter),env(safe-area-inset-left,0px));right:max(var(--page-gutter),env(safe-area-inset-right,0px))}}
+@media(max-width:380px){:root{--header-gutter:16px}}
