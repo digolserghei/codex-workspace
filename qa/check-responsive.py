@@ -8,7 +8,7 @@ with sync_playwright() as p:
  page=b.new_page(viewport={'width':390,'height':844},device_scale_factor=2,is_mobile=True,has_touch=True,reduced_motion='reduce')
  page.on('pageerror',lambda e:report['errors'].append(str(e)))
  for lang in ['ru','en','ro']:
-  url='http://127.0.0.1:3000/codex-workspace/'+('' if lang=='ru' else lang+'/')
+  url='http://127.0.0.1:3000/codex-workspace/'+('' if lang=='en' else lang+'/')
   page.goto(url,wait_until='networkidle');page.evaluate("document.documentElement.style.scrollBehavior='auto'")
   assert page.locator('html').get_attribute('lang')==lang
   if lang=='ru':
@@ -73,7 +73,7 @@ with sync_playwright() as p:
   if width==768:
    for sid,name in [('section-3','doctor'),('section-9','services')]:page.locator('#'+sid).screenshot(path=str(shots/f'ro-{name}-768.png'))
  # Mobile normal motion: no parallax, all revealed content becomes visible after scrolling.
- page.set_viewport_size({'width':390,'height':844});page.emulate_media(reduced_motion='no-preference');page.goto('http://127.0.0.1:3000/codex-workspace/',wait_until='networkidle');page.evaluate("document.documentElement.style.scrollBehavior='auto'")
+ page.set_viewport_size({'width':390,'height':844});page.emulate_media(reduced_motion='no-preference');page.goto('http://127.0.0.1:3000/codex-workspace/ru/',wait_until='networkidle');page.evaluate("document.documentElement.style.scrollBehavior='auto'")
  for y in range(0,page.evaluate('document.body.scrollHeight'),600):page.evaluate('(y)=>scrollTo(0,y)',y);page.wait_for_timeout(60)
  page.wait_for_timeout(1500)
  assert page.locator('.parallax-image,.parallax-photo').evaluate_all("es=>es.every(e=>getComputedStyle(e).transform==='none')")

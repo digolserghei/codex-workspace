@@ -10,7 +10,7 @@ import ui from '@/content/ui.json';
 import imageSizes from '@/content/image-sizes.json';
 export type Locale='ru'|'en'|'ro';
 const copies={ru:russian,en:english,ro:romanian};
-const LanguageContext=createContext<Locale>('ru');
+const LanguageContext=createContext<Locale>('en');
 function useCopy(){const locale=useContext(LanguageContext);return {locale,ru:copies[locale],t:(text:string)=>locale==='ru'?text:(ui as Record<string,{en:string,ro:string}>)[text]?.[locale]??text};}
 
 const external={target:'_blank',rel:'noopener noreferrer'};
@@ -22,7 +22,7 @@ function imageProps(path:string,sizes:string){
 }
 function LanguageSwitcher({className='language-switcher'}:{className?:string}){
  const {locale,t}=useCopy();
- return <div className={className} role="group" aria-label={t('Язык сайта')}>{(['ru','en','ro'] as const).map(code=><a key={code} href={asset(code==='ru'?'/':`/${code}/`)} hrefLang={code} lang={code} aria-label={{ru:'Русский',en:'English',ro:'Română'}[code]} aria-current={locale===code?'page':undefined} className={locale===code?'current':''} onClick={e=>{e.currentTarget.href=e.currentTarget.href.split('#')[0]+window.location.hash}}>{code.toUpperCase()}</a>)}</div>;
+ return <div className={className} role="group" aria-label={t('Язык сайта')}>{(['en','ro','ru'] as const).map(code=><a key={code} href={asset(code==='en'?'/':`/${code}/`)} hrefLang={code} lang={code} aria-label={{ru:'Русский',en:'English',ro:'Română'}[code]} aria-current={locale===code?'page':undefined} className={locale===code?'current':''} onClick={e=>{e.currentTarget.href=e.currentTarget.href.split('#')[0]+window.location.hash}}>{code.toUpperCase()}</a>)}</div>;
 }
 const clinicalImages=[{src:'/images/gallery-embryo.webp',alt:'Научная визуализация бластоцисты'},{src:'/images/gallery-genetics.webp',alt:'Визуализация ДНК и репродуктивной генетики'},{src:'/images/gallery-newborn.webp',alt:'Спящий новорождённый — иллюстративная фотография'},{src:'/images/gallery-icsi.webp',alt:'Научная визуализация процедуры ИКСИ'}];
 const reputationImages=Array.from({length:5},(_,i)=>({src:`/images/reputation-${i+1}.jpg`,alt:'Оригинальная фотография из галереи Ирены Дигол'}));
@@ -138,4 +138,4 @@ function Home(){
  </div>
 }
 
-export default function Site({locale='ru'}:{locale?:Locale}){return <LanguageContext.Provider value={locale}><Home/></LanguageContext.Provider>}
+export default function Site({locale='en'}:{locale?:Locale}){return <LanguageContext.Provider value={locale}><Home/></LanguageContext.Provider>}

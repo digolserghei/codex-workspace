@@ -1,6 +1,6 @@
 # Ирена Дигол — персональный сайт
 
-Сайт на русском, английском и румынском языках с адаптивами для телефонов, планшетов и десктопов. Переключатель RU / EN / RO сохраняет текущий раздел. Научные библиографические записи остаются на языке оригинала.
+Сайт на русском, английском и румынском языках с адаптивами для телефонов, планшетов и десктопов. Переключатель EN / RO / RU сохраняет текущий раздел. Научные библиографические записи остаются на языке оригинала.
 
 Исходный код: Next.js, React, TypeScript, GSAP.
 Готовая сборка GitHub Pages: `docs/`.
@@ -26,8 +26,8 @@ touch docs/.nojekyll
 
 ## Языковые версии
 
-- Русская: https://digolserghei.github.io/codex-workspace/
-- English: https://digolserghei.github.io/codex-workspace/en/
+- Русская: https://digolserghei.github.io/codex-workspace/ru/
+- English (по умолчанию): https://digolserghei.github.io/codex-workspace/
 - Română: https://digolserghei.github.io/codex-workspace/ro/
 
 Переводы содержимого: src/content/en.json, ro.json. Интерфейс: src/content/ui.json.
@@ -40,3 +40,5 @@ touch docs/.nojekyll
 Responsive WebP: public/images/responsive. Обновление после замены фотографий: python scripts/resize-images.py (требуется Pillow). Оригинальные изображения сохранены.
 
 Проверки: qa/check-responsive.py — Chromium с эмуляцией касаний, 14 ширин 360–1920 px, RU/EN/RO. Результаты: qa/responsive.json. Дополнительно проверены экраны 360×640 и 844×390.
+
+Основной адрес открывается на английском. Порядок переключателя — EN / RO / RU. Старый адрес /en/ сохранён с canonical на основной адрес.

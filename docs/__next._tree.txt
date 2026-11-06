@@ -1,5 +1,5 @@
 :HL["/codex-workspace/_next/static/chunks/3ag8ubfthj6gu.css","style"]
 :HC["/",""]
 2:[["children",{"s":"__PAGE__","h":160}]]
-1:[["children",{"s":"(russian)","h":112,"c":"$Q2"}]]
-0:{"b":"wTbqCV7t_kswojV93O7XO","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+1:[["children",{"s":"(english)","h":112,"c":"$Q2"}]]
+0:{"b":"jGSJy1uHvsj0112EfKiTY","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

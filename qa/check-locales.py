@@ -8,7 +8,7 @@ with sync_playwright() as p:
  page=b.new_page(viewport={'width':1440,'height':1000},reduced_motion='reduce')
  page.on('pageerror',lambda e:errors.append(str(e)))
  for locale in ['ru','en','ro']:
-  url='http://127.0.0.1:3000/codex-workspace/'+('' if locale=='ru' else locale+'/')
+  url='http://127.0.0.1:3000/codex-workspace/'+('' if locale=='en' else locale+'/')
   page.goto(url,wait_until='networkidle');page.evaluate("document.documentElement.style.scrollBehavior='auto'")
   assert page.locator('html').get_attribute('lang')==locale
   assert page.locator('.language-switcher [aria-current=page]').inner_text()==locale.upper()
@@ -41,7 +41,7 @@ with sync_playwright() as p:
   page.wait_for_timeout(800)
   assert page.locator('img').evaluate_all('(es)=>es.every(e=>e.complete&&e.naturalWidth>0)')
   for code in ['ru','en','ro']:
-   link=page.locator(f'.language-switcher a[hreflang={code}]');assert link.get_attribute('href')=='/codex-workspace/'+('' if code=='ru' else code+'/')
+   link=page.locator(f'.language-switcher a[hreflang={code}]');assert link.get_attribute('href')=='/codex-workspace/'+('' if code=='en' else code+'/')
   # Exercise real language navigation with the current section retained.
   page.evaluate("location.hash='contacts'")
   next_code={'ru':'en','en':'ro','ro':'ru'}[locale]
