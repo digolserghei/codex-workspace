@@ -92,3 +92,12 @@ html{background:var(--canvas);scroll-padding-top:calc(var(--header-height) + var
 @media(max-width:1100px){:root{--header-height:80px}}
 @media(max-width:700px){:root{--header-height:76px;--header-gutter:20px}.mobile-menu{padding-top:calc(20px + var(--safe-top));padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px))}.hero-copy{left:max(var(--page-gutter),env(safe-area-inset-left,0px));right:max(var(--page-gutter),env(safe-area-inset-right,0px))}}
 @media(max-width:380px){:root{--header-gutter:16px}}
+
+.reputation-mobile-dash{display:none}
+@media(max-width:1100px){
+ .reputation-desktop-dash{display:none}.reputation-mobile-dash{display:inline}
+ .reputation-title .reputation-lead,.reputation-title .reputation-ending{white-space:nowrap}
+ .reputation-section .section-heading h2.reputation-title{font-size:clamp(27px,7.2vw,44px);line-height:1.18;letter-spacing:-.045em}
+ html[lang=ro] .reputation-section .section-heading h2.reputation-title{font-size:clamp(25px,6.8vw,42px)}
+}
+@media(max-width:1100px){.reputation-section .section-heading{flex-direction:column;align-items:flex-start;gap:20px}}
