@@ -96,5 +96,16 @@
       1672,
       941
     ]
+  },
+  {
+    "name": "doctor-work",
+    "source": "Figma original image fill, node 1:316",
+    "imageHash": "e9ff9228a8b4ba48d0edfe16da1e327591ab220d",
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "originalBytes": 1990483,
+    "file": "public/images/doctor-work.webp",
+    "bytes": 168416,
+    "mobile": "public/images/responsive/doctor-work-720.webp"
   }
 ]

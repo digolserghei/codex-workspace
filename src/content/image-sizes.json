@@ -128,5 +128,14 @@
         "width": 720
       }
     ]
+  },
+  "/images/doctor-work.webp": {
+    "width": 1254,
+    "variants": [
+      {
+        "src": "/images/responsive/doctor-work-720.webp",
+        "width": 720
+      }
+    ]
   }
 }

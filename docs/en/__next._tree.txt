@@ -1,5 +1,5 @@
-:HL["/codex-workspace/_next/static/chunks/16y-5n47wssam.css","style"]
+:HL["/codex-workspace/_next/static/chunks/162tj2mxngzof.css","style"]
 :HC["/",""]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":[]},"h":65648,"c":"$Q2"}]]
-0:{"b":"EZJoL19oP880GrhfrarbX","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"3n42kKaT_0h-FZBwlbvQA","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
